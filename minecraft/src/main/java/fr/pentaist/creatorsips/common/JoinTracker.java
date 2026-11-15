@@ -1,5 +1,7 @@
 package fr.pentaist.creatorsips.common;
 
+import com.google.gson.JsonObject;
+
 import java.io.IOException;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
@@ -71,28 +73,13 @@ public final class JoinTracker {
     }
 
     private static String toJson(UUID uuid, String playerName, String hostname, Boolean firstJoin) {
-        return "{"
-                + "\"uuid\":\"" + uuid + "\","
-                + "\"name\":" + quote(playerName) + ","
-                + "\"hostname\":" + (hostname == null ? "null" : quote(hostname)) + ","
-                + "\"first_join\":" + firstJoin
-                + "}";
-    }
+        JsonObject json = new JsonObject();
+        json.addProperty("uuid", uuid.toString());
+        json.addProperty("name", playerName);
+        json.addProperty("hostname", hostname);
+        json.addProperty("first_join", firstJoin);
 
-    private static String quote(String value) {
-        StringBuilder json = new StringBuilder("\"");
-
-        for (char character : value.toCharArray()) {
-            if (character == '"' || character == '\\') {
-                json.append('\\').append(character);
-            } else if (character < 0x20) {
-                json.append(String.format("\\u%04x", (int) character));
-            } else {
-                json.append(character);
-            }
-        }
-
-        return json.append('"').toString();
+        return json.toString();
     }
 
     private static String shorten(String text) {
