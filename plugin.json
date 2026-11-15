@@ -1,0 +1,18 @@
+{
+    "id": "creatorsips",
+    "name": "CreatorsIPs",
+    "version": "1.0.0",
+    "description": "Custom server addresses for content creators, with statistics on the players they bring.",
+    "url": "https://github.com/BlockFarmers/creatorsips",
+    "authors": [
+        "PenTaist"
+    ],
+    "azuriom_api": "1.2.0",
+    "providers": [
+        "\\Azuriom\\Plugin\\CreatorsIps\\Providers\\CreatorsIpsServiceProvider",
+        "\\Azuriom\\Plugin\\CreatorsIps\\Providers\\RouteServiceProvider"
+    ],
+    "dependencies": {
+        "azuriom": "^1.2.0"
+    }
+}

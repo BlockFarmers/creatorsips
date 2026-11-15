@@ -1,0 +1,21 @@
+<?php
+
+namespace Azuriom\Plugin\CreatorsIps\Providers;
+
+use Azuriom\Extensions\Plugin\BaseRouteServiceProvider;
+use Illuminate\Support\Facades\Route;
+
+class RouteServiceProvider extends BaseRouteServiceProvider
+{
+    public function loadRoutes(): void
+    {
+        Route::middleware('admin-access')
+            ->prefix('admin/'.$this->plugin->id)
+            ->name($this->plugin->id.'.admin.')
+            ->group(plugin_path($this->plugin->id.'/routes/admin.php'));
+
+        Route::prefix('api/'.$this->plugin->id)
+            ->name($this->plugin->id.'.api.')
+            ->group(plugin_path($this->plugin->id.'/routes/api.php'));
+    }
+}

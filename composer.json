@@ -1,0 +1,16 @@
+{
+    "name": "pentaist/creatorsips",
+    "description": "Custom server addresses for content creators, with statistics on the players they bring.",
+    "type": "azuriom-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PenTaist"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Azuriom\\Plugin\\CreatorsIps\\": "src/"
+        }
+    }
+}
