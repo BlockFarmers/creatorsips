@@ -5,10 +5,10 @@ players they really bring to your Minecraft server.
 
 CreatorsIPs is made of two parts:
 
-| Part | Folder | Role |
+| Part | Role |
 |---|---|---|
-| Azuriom plugin | [`azuriom/`](azuriom) | Manage creators IPs and read the statistics from your Azuriom admin panel. |
-| Minecraft plugin | [`minecraft/`](minecraft) | Sends the address typed by each player to your website. One jar for Spigot, Paper, Folia, Velocity and BungeeCord. |
+| Azuriom plugin | Manage creators IPs and read the statistics from your Azuriom admin panel. |
+| Minecraft plugin | Sends the address typed by each player to your website. One jar for Spigot, Paper, Folia, Velocity and BungeeCord. |
 
 The Minecraft plugin is required: only the Minecraft server knows which address a player typed to join.
 
