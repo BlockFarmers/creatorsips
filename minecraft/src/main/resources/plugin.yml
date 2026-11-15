@@ -1,0 +1,19 @@
+name: CreatorsIPs
+version: ${project.version}
+main: fr.pentaist.creatorsips.bukkit.CreatorsIpsBukkit
+api-version: '1.13'
+description: ${project.description}
+author: PenTaist
+website: ${project.url}
+folia-supported: true
+
+commands:
+  creatorsips:
+    description: Reloads the Creators IPs configuration.
+    usage: /creatorsips reload
+    permission: creatorsips.reload
+
+permissions:
+  creatorsips.reload:
+    description: Allows reloading the Creators IPs configuration.
+    default: op

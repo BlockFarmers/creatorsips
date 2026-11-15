@@ -11,8 +11,8 @@ return [
 
     'download' => [
         'button' => 'Télécharger le plugin',
-        'info' => 'Le suivi nécessite le plugin CreatorsIPs sur votre serveur Minecraft (Spigot, Paper, Velocity ou BungeeCord). Téléchargez-le depuis les releases GitHub.',
-        'no_joins' => 'Aucune connexion reçue du serveur Minecraft pour le moment. Installez le plugin CreatorsIPs sur votre serveur, puis configurez-le depuis la page Paramètres.',
+        'info' => 'Le suivi nécessite le plugin Creators IPs sur votre serveur Minecraft (Spigot, Paper, Velocity ou BungeeCord). Téléchargez-le depuis les releases GitHub.',
+        'no_joins' => 'Aucune connexion reçue du serveur Minecraft pour le moment. Installez le plugin Creators IPs sur votre serveur, puis configurez-le depuis la page Paramètres.',
     ],
 
     'ips' => [

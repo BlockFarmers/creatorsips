@@ -1,9 +1,9 @@
-# CreatorsIPs
+# Creators IPs
 
 Give each content creator their own server address (for example `steve.example.com`) and see how many
 players they really bring to your Minecraft server.
 
-CreatorsIPs is made of two parts:
+Creators IPs is made of two parts:
 
 | Part | Role |
 |---|---|
@@ -48,7 +48,7 @@ Minecraft.
 
 ### 2. Azuriom plugin
 
-Install **CreatorsIPs** from the Azuriom market, or download `creatorsips-azuriom-x.y.z.zip` from the
+Install **Creators IPs** from the Azuriom market, or download `creatorsips-azuriom-x.y.z.zip` from the
 [releases](https://github.com/BlockFarmers/creatorsips/releases) and extract it into `plugins/creatorsips`.
 Then enable it in **Admin → Plugins**.
 

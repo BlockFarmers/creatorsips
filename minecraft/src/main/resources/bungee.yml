@@ -1,0 +1,5 @@
+name: CreatorsIPs
+version: ${project.version}
+main: fr.pentaist.creatorsips.bungee.CreatorsIpsBungee
+author: PenTaist
+description: ${project.description}

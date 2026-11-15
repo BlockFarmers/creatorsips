@@ -11,8 +11,8 @@ return [
 
     'download' => [
         'button' => 'Download the plugin',
-        'info' => 'Tracking requires the CreatorsIPs plugin on your Minecraft server (Spigot, Paper, Velocity or BungeeCord). Download it from the GitHub releases.',
-        'no_joins' => 'No join received from the Minecraft server yet. Install the CreatorsIPs plugin on your server, then configure it from the Settings page.',
+        'info' => 'Tracking requires the Creators IPs plugin on your Minecraft server (Spigot, Paper, Velocity or BungeeCord). Download it from the GitHub releases.',
+        'no_joins' => 'No join received from the Minecraft server yet. Install the Creators IPs plugin on your server, then configure it from the Settings page.',
     ],
 
     'ips' => [

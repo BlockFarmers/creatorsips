@@ -1,0 +1,10 @@
+{
+  "id": "creatorsips",
+  "name": "Creators IPs",
+  "version": "${project.version}",
+  "description": "${project.description}",
+  "url": "${project.url}",
+  "authors": ["PenTaist"],
+  "dependencies": [],
+  "main": "fr.pentaist.creatorsips.velocity.CreatorsIpsVelocity"
+}
